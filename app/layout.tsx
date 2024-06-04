@@ -1,20 +1,21 @@
+export const dynamic = 'force-dynamic'
+
 import type { Metadata } from "next";
 import { Inter, IBM_Plex_Serif } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 const ibmPlexSerif = IBM_Plex_Serif({
-
-  subsets:['latin'],
-  weight:['400', '700'],
-  variable: '--font-ibm-plex-sherif'
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  variable: '--font-ibm-plex-serif'
 })
 
 export const metadata: Metadata = {
-  title: "The Peoples Bank",
-  description: "The Peoples Bank is created by the people, for the people!",
-  icons:{
-    icon:'/icons/logo1.svg'
+  title: "PennyPulse",
+  description: "Penny Pinching at its finest.",
+  icons: {
+    icon: '/icons/logo2.svg'
   }
 };
 

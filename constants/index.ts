@@ -5,17 +5,17 @@ export const sidebarLinks = [
     label: "Home",
   },
   {
-    imgURL: "/icons/dollar-circle.svg",
+    imgURL: "/icons/pound-circle.svg",
     route: "/my-banks",
-    label: "My Banks",
+    label: "My Accounts",
   },
   {
-    imgURL: "/icons/transaction.svg",
+    imgURL: "/icons/transaction1.svg",
     route: "/transaction-history",
     label: "Transaction History",
   },
   {
-    imgURL: "/icons/money-send.svg",
+    imgURL: "/icons/money-send1.svg",
     route: "/payment-transfer",
     label: "Transfer Funds",
   },
@@ -100,13 +100,13 @@ export const transactionCategoryStyles = {
   },
   Payment: {
     borderColor: "border-success-600",
-    backgroundColor: "bg-green-600",
+    backgroundColor: "bg-blue-600",
     textColor: "text-success-700",
     chipBackgroundColor: "bg-inherit",
   },
   "Bank Fees": {
     borderColor: "border-success-600",
-    backgroundColor: "bg-green-600",
+    backgroundColor: "bg-blue-600",
     textColor: "text-success-700",
     chipBackgroundColor: "bg-inherit",
   },
@@ -126,6 +126,12 @@ export const transactionCategoryStyles = {
     borderColor: "border-[#12B76A]",
     backgroundColor: "bg-[#12B76A]",
     textColor: "text-[#027A48]",
+    chipBackgroundColor: "bg-[#ECFDF3]",
+  },
+  Travel: {
+    borderColor: "border-[#0047AB]",
+    backgroundColor: "bg-blue-500",
+    textColor: "text-blue-700",
     chipBackgroundColor: "bg-[#ECFDF3]",
   },
   default: {
